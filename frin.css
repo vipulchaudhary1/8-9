@@ -1,0 +1,342 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #c5322b;
+    padding: 10px 30px;
+
+}
+
+.container {
+   
+    /* margin: 0 auto;
+    width: 94%; */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    font-weight: bold;
+}
+.section1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.685)), url(./images/./benefits_of_becoming_franchisee_owner.webp);
+    background-repeat: no-repeat;
+    /* clip-path: circle(56% at 48% 0); */
+    background-size: cover;
+    background-clip: unset;
+    padding-top: 200px;
+    font-size: 20px;
+    height: 40vh;
+    overflow: hidden;
+
+}
+
+.section1 h1 {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.contant-1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.contant-1 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.down {
+    position: relative;
+    top: 118px;
+}
+.section2 h1{
+    font-family: 'Baloo Bhai 2', cursive;
+   
+    color: red;
+    font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+   
+
+}
+.section2 h2{
+    font-family: 'Baloo Bhai 2', cursive;
+   
+    color: red;
+    font-size: 34px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+    font-weight: bolder;
+  
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+   
+   
+}
+.section2 img{
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.s2-img{
+    margin: 0 auto;
+    width: 1200px;
+}
+.s2-content h1{
+    color: black;
+    text-align: left;
+    font-size: 36px;
+    margin-bottom: 30px;
+  
+      font-weight: bolder;
+      text-transform: capitalize;
+     
+      font-family: 'Baloo Bhai 2', cursive;
+}
+.s2-content p{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.container{
+    margin: 0 auto;
+    width: 56%;
+}.section2{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.section3{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section3 h3{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-size: 20px;
+    color: #fbb403;
+    margin-bottom: 10px;
+}
+.section3 h5{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+.section3 li{
+    color: white;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 30px;
+}
+.section3-ff{
+    margin-bottom: 40px;
+}
+.section4 h3{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-size: 20px;
+    color: black;
+   
+}
+.section4 p{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 10px;
+}
+.section4-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.section4-row div{
+    background-color: rgba(250, 253, 255, 0.993);
+    border: solid 1px black;
+    padding: 20px 30px;
+    width: 400px;
+}
+.section4 li{
+    color: black;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 30px;
+}
+.section4 h2{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: lighter;
+   
+}
+.section4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section5 {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section5 h3{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-size: 20px;
+    color: #fbb403;
+    padding-bottom: 40px;
+   
+}
+.section5 img{
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.s2-img{
+    margin: 0 auto;
+    width: 1000px;
+}
+.section6-row{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 30px;
+    border: solid 1px rgba(128, 128, 128, 0.329);
+    border-radius: 15px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+.section6 h5{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-size: 17px;
+    color: #d20d20;
+    text-align: center;
+}
+.section6 p{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height:25px ;
+}
+.section6 h4{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-size: 17px;
+    color: #d20d21cb;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.section6 button{
+    background-color: #d20d21cb ;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+footer{
+    background-image: url(./images/1600x810\ doodle\ footer.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-top: 80px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 300px; */
+    align-items: center;
+}
+.footer1 span{
+    color: white;
+    font-weight: bolder; font-size: 30px;
+    text-transform: capitalize;
+    font-family: "BalooBhai2_Regular", sans-serif;
+}
+.social-media{
+    display: flex;
+    gap: 40px;
+}
+footer .logo{
+    width: 30%;
+   
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+   
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer2 a{
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.footer-cotent{
+    color: #959595;
+    font-size: 17px;
+    line-height: 31px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "BalooBhai2_Regular", sans-serif;
+}
+.footer-cotent a {
+    color: white    ;
+    text-decoration: none;
+    
+}
+footer .hr{
+   border-top: dotted 1px white;
+   margin-top: 40px;
+   margin-bottom: 40px;
+
+}
+.bootom-cotent{
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+   text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.foo-ic{
+    display: flex;
+    gap: 20px;
+    align-items:center;
+}

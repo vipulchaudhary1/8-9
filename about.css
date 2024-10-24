@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #c5322b;
+    padding: 10px 30px;
+
+}
+
+.container {
+   
+    /* margin: 0 auto;
+    width: 94%; */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    font-weight: bold;
+}
+.section1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.685)), url(./images/ajays-section.webp);
+    background-repeat: no-repeat;
+    /* clip-path: circle(56% at 48% 0); */
+    background-size: cover;
+    background-clip: unset;
+    padding-top: 200px;
+    font-size: 20px;
+    height: 40vh;
+    overflow: hidden;
+
+}
+
+.section1 h1 {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.contant-1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.contant-1 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.down {
+    position: relative;
+    top: 118px;
+}
+.section2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.section2-row{
+    display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.about-content  h2{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    color: #d20d20;
+     
+    margin-bottom: 15px;
+}
+.about-content  p{
+    font-family: 'Baloo Bhai 2', cursive;
+  
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #737373;
+    font-weight: 400;
+}
+.about-content{
+    width: 500px;
+}
+.cartton1{
+    border-radius: 50px;
+}
+.signature h4{
+    font-size: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+
+
+}
+.about-content  span{
+    font-family: 'Baloo Bhai 2', cursive;
+  
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #737373;
+    font-weight: 400;
+}
+.section3-row{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.section3{
+    background-color: #C5322B;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.section3 h2{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.section3 h3{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.section4 h2{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center  ;
+}
+.section4 p{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: black;
+    font-size: 20px;
+ line-height: 50px;
+ text-align: center;
+}
+.section4{
+  
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.section5{
+  
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.section5 h2{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #d20d20;
+    font-size: 40px;
+     
+    margin-bottom: 15px;
+}
+footer{
+    background-image: url(./images/1600x810\ doodle\ footer.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 300px; */
+    align-items: center;
+}
+.footer1 span{
+    color: white;
+    font-weight: bolder; font-size: 30px;
+    text-transform: capitalize;
+    font-family: "BalooBhai2_Regular", sans-serif;
+}
+.social-media{
+    display: flex;
+    gap: 40px;
+}
+footer .logo{
+    width: 30%;
+   
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+   
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer2 a{
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.footer-cotent{
+    color: #959595;
+    font-size: 17px;
+    line-height: 31px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "BalooBhai2_Regular", sans-serif;
+}
+.footer-cotent a {
+    color: white    ;
+    text-decoration: none;
+    
+}
+footer .hr{
+   border-top: dotted 1px white;
+   margin-top: 40px;
+   margin-bottom: 40px;
+
+}
+.bootom-cotent{
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+   text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "BalooBhai2_Regular", sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.foo-ic{
+    display: flex;
+    gap: 20px;
+    align-items:center;
+}
